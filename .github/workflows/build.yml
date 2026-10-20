@@ -23,9 +23,6 @@ jobs:
           distribution: 'temurin'
           cache: gradle
 
-      - name: Setup Android SDK Tools
-        uses: android-actions/setup-android@v3
-
       - name: Grant Execute Permission for Gradle Wrapper
         run: chmod +x gradlew
 
